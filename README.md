@@ -14,7 +14,16 @@ This will return the number in full in english.
 
 This will return the number in full in portuguese.
 
+![numberInFullPT829](https://user-images.githubusercontent.com/1830947/141046748-43b2a3ac-4b37-4ec4-9ea6-6ab52ba54575.png)
 
+
+
+## Project Structure
+This is a regular node project.
+
+In folder 'resources' are the two files that map the numbers from text (usMap and ptMap).
+
+In folder 'controller' are the files with the logic to return the number in full from the numerical value.
 
 
 ## Requirements
