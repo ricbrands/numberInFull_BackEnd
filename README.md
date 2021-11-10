@@ -8,6 +8,8 @@ There are two end-points:
 
 This will return the number in full in english.
 
+![numberInFullUS365](https://user-images.githubusercontent.com/1830947/141046245-795dd962-4801-4bec-956d-0bb31f97c2d4.png)
+
 -> /pt/:number
 
 This will return the number in full in portuguese.
