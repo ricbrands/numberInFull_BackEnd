@@ -1,0 +1,46 @@
+const unidade = new Map();
+unidade.set('1', 'um');
+unidade.set('2', 'dois');
+unidade.set('3', 'três');
+unidade.set('4', 'quatro');
+unidade.set('5', 'cinco');
+unidade.set('6', 'seis');
+unidade.set('7', 'sete');
+unidade.set('8', 'oito');
+unidade.set('9', 'nove');
+
+const dezena = new Map();
+dezena.set('10', 'dez');
+dezena.set('11', 'onze');
+dezena.set('12', 'doze');
+dezena.set('13', 'treze');
+dezena.set('14', 'catorze');
+dezena.set('15', 'quinze');
+dezena.set('16', 'dezesseis');
+dezena.set('17', 'dezesete');
+dezena.set('18', 'dezoito');
+dezena.set('19', 'dezenove');
+dezena.set('2', 'vinte');
+dezena.set('3', 'trinta');
+dezena.set('4', 'quarenta');
+dezena.set('5', 'cinquenta');
+dezena.set('6', 'sessenta');
+dezena.set('7', 'setenta');
+dezena.set('8', 'oitenta');
+dezena.set('9', 'noventa');
+
+const centena = new Map();
+centena.set('1', 'cento');
+centena.set('2', 'duzentos');
+centena.set('3', 'trezentos');
+centena.set('4', 'quatrocentos');
+centena.set('5', 'quinhentos');
+centena.set('6', 'seiscentos');
+centena.set('7', 'setecentos');
+centena.set('8', 'oitocentos');
+centena.set('9', 'novecentos');
+centena.set('100', 'cem');
+
+exports.unidade = unidade;
+exports.dezena = dezena;
+exports.centena = centena;

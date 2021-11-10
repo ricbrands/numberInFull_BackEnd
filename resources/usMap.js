@@ -1,0 +1,33 @@
+const unity = new Map();
+unity.set('1', 'one');
+unity.set('2', 'two');
+unity.set('3', 'three');
+unity.set('4', 'four');
+unity.set('5', 'five');
+unity.set('6', 'six');
+unity.set('7', 'seven');
+unity.set('8', 'eight');
+unity.set('9', 'nine');
+
+const ten = new Map();
+ten.set('10', 'ten');
+ten.set('11', 'eleven');
+ten.set('12', 'twelve');
+ten.set('13', 'thirteen');
+ten.set('14', 'fourteen');
+ten.set('15', 'fifteen');
+ten.set('16', 'sixteen');
+ten.set('17', 'seventeen');
+ten.set('18', 'eighteen');
+ten.set('19', 'nineteen');
+ten.set('2', 'twenty');
+ten.set('3', 'thirty');
+ten.set('4', 'forty');
+ten.set('5', 'fifty');
+ten.set('6', 'sixty');
+ten.set('7', 'seventy');
+ten.set('8', 'eighty');
+ten.set('9', 'ninety');
+
+exports.unity = unity;
+exports.ten = ten;
